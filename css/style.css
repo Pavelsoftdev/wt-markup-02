@@ -1,7 +1,7 @@
 :root{
     --blue_colour:#2196F3;
     --grey_text:#757575;
-    --sh: 0px 3px 5px -3px black;
+    --shadow: 0px 3px 5px -3px black;
 }
 a {
     color:black;
@@ -68,7 +68,7 @@ header nav ul li :hover{
 }
 .team .workers .worker{
     background-color: #FFFFFF;
-    box-shadow: var(--sh);
+    box-shadow: var(--shadow);
     margin-bottom: 10px;
     width: 270px;
     border-radius: 0 0 4px 4px;

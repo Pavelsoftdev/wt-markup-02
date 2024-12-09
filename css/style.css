@@ -1,7 +1,6 @@
 :root{
     --blue_colour:#2196F3;
     --grey_text:#757575;
-    --shadow:0px 3px 5px -3px black;
 }
 a {
     color:black;
@@ -35,13 +34,13 @@ header nav ul li :hover{
     color: var(--blue_colour);
     fill: var(--blue_colour);
 }
-.order {background-color: #2F303A;}
-.order h1{
+.order_service {background-color: #2F303A;}
+.order_service h1{
     color: #ffff;
     font-size: 44px;
     font-weight:900;
 }
-.order button {
+.order_service button {
     background-color:var(--blue_colour);
     color: #ffff;
     font-size: 16px;
@@ -50,12 +49,12 @@ header nav ul li :hover{
     border: 0;
     border-radius: 4px;
 }
-.advantages ul li .icon{background-color: #F5F4FA;}
-.advantages ul li h3 {
+.features ul li .icon{background-color: #F5F4FA;}
+.features ul li h3 {
     font-weight: 700;
     font-size: 14px;
 }
-.advantages ul li p {color: var(--grey_text);}
+.features ul li p {color: var(--grey_text);}
 .work h2{
     font-size: 36px;
     font-weight: 700;
@@ -68,7 +67,7 @@ header nav ul li :hover{
 }
 .team .workers .worker{
     background-color: #FFFFFF;
-    box-shadow: var(--shadow);
+    box-shadow: var(0px 3px 5px -3px black);
     margin-bottom: 10px;
     width: 270px;
     border-radius: 0 0 4px 4px;
@@ -112,7 +111,7 @@ footer h2 {
     font-size: 14px;  
     font-weight: 700;
 }
-footer .social li a {
+footer .our_contacts li a {
     fill: #FFFFFF;
     height: 44px; 
     width: 44px; 
@@ -122,7 +121,7 @@ footer .social li a {
     background-color: rgba(255, 255, 255, 10%);
     border-radius: 100%;
 }
-footer .social li a:hover { background-color: var(--blue_colour);}
+footer .our_contacts li a:hover { background-color: var(--blue_colour);}
 footer form label{
     color: #FFFFFF; 
     font-size: 14px; 

@@ -1,6 +1,7 @@
 :root{
     --blue_colour:#2196F3;
     --grey_text:#757575;
+    --sh: 0px 3px 5px -3px black;
 }
 a {
     color:black;
@@ -30,7 +31,7 @@ header nav ul li :hover{
     color: var(--grey_text);
     fill: var(--grey_text)
 }
-.contacts_info li a :hover{
+.contacts_info li a:hover{
     color: var(--blue_colour);
     fill: var(--blue_colour);
 }
@@ -67,7 +68,7 @@ header nav ul li :hover{
 }
 .team .workers .worker{
     background-color: #FFFFFF;
-    box-shadow: var(0px 3px 5px -3px black);
+    box-shadow: var(--sh);
     margin-bottom: 10px;
     width: 270px;
     border-radius: 0 0 4px 4px;
